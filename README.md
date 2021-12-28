@@ -41,3 +41,9 @@ runs:
         command: test
         args: --org=rise8-pilot-org --sarif-file-output=sca.sarif --all-projects
 ```
+
+The templated action is now callable via:
+```
+- name: Snyk SCA Results
+  uses: ./sca   
+```
